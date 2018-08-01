@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase "" href="">
+<information>
+     <title>Pogo Master</title>
+     <vendor>Kai Christo<</vendor>
+     </information>
+     <resources>
+     <!-- Application Resources -->
+     <j2se version="1.7+"
+           href="http://java.sun.com/products/autod1/j2se" />
+           <jar href="Pogo_Master.jar" main="true" / \>
+</resources>
+<applet-desc
+    name="Pogo Master"
+    main-class="components.PogoMaster"
+    width = "500"
+    height = "400"
+    </applet-desc>
+    <update check="background"/>
+    </jnlp>
+    
